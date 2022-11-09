@@ -17,3 +17,12 @@ void FillSecondArray(string[] FirstArray, string[] SecondArray)
         }
     }
 }
+
+void PrintArray(string[] array)
+{
+    Console.WriteLine("Массив из строк, длина которых меньше либо равна трём символам:");
+    for (int i = 0; i < array.Length; i++)
+    {
+        Console.Write($"{array[i]} ");
+    }
+}
