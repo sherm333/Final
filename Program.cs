@@ -26,3 +26,6 @@ void PrintArray(string[] array)
         Console.Write($"{array[i]} ");
     }
 }
+
+FillSecondArray(FirstArray, SecondArray);
+PrintArray(SecondArray);
